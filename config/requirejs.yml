@@ -1,0 +1,40 @@
+paths:
+  # react library
+  'react-with-addons': 'react/react-with-addons'
+  # require jquery library
+  'jquery': 'jquery/dist/jquery'
+  # require lodash
+  'lodash': 'lodash/lodash'
+  # require flux
+  'flux': 'flux/dist/Flux'
+  # require es6-promise
+  'es6-promise': 'es6-promise/promise'
+  # require event emitter 2
+  'event-emitter': 'eventemitter2/lib/eventemitter2'
+  # require validator
+  'validator': 'validator-js/validator'
+  # require object-assign
+  'object-assign': 'object-assign/object-assign'
+  # react router
+  'react-router':  'react-router/dist/react-router'
+  # shim
+  'react-router-shim': 'react-router-shim/react-router-shim'
+  # moment
+  'moment': 'moment/min/moment-with-locales'
+  # moment-timezone
+  'moment-timezone': 'moment-timezone/builds/moment-timezone-with-data'
+  # pikaday
+  'pikaday': 'pikaday/pikaday'
+shim:
+  'react-router-shim':
+    exports: 'React'
+  'react-router':
+    deps: ['react-router-shim']
+    exports: 'ReactRouter'
+  'lodash':
+    exports: '_'
+  'object-assign':
+    exports: 'ObjectAssign'
+  'moment':
+    exports: 'Moment'
+  'bootstrap': ['jquery']
