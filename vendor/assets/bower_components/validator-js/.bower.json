@@ -1,0 +1,27 @@
+{
+  "name": "validator-js",
+  "main": "validator.js",
+  "version": "3.11.2",
+  "homepage": "https://github.com/chriso/validator.js",
+  "authors": [
+    "Chris O'Hara <cohara87+gh@gmail.com>"
+  ],
+  "description": "String validation and sanitization",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "3.11.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.11.2",
+    "commit": "3e9e845c6960238fc6c789c41c9c1fb65c7dfc25"
+  },
+  "_source": "git://github.com/chriso/validator.js.git",
+  "_target": "3.11.2",
+  "_originalSource": "validator-js"
+}

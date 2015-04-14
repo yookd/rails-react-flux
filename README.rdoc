@@ -2,8 +2,8 @@
 
 Sample Rails, React, Flux implementation app.
 
-* Ruby version: 2.1.5
+* Ruby version: 2.2.2
 
-* Rails version: 4.1.7
+* Rails version: 4.2.1
 
 * Database: PostgreSQL
